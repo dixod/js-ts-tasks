@@ -8,6 +8,6 @@ module.exports.backToFront = function backToFront(str, symbolsCount) {
   if (symbolsCount > str.length) {
     return str;
   }
-  const symbols = str.substring(0, symbolsCount);
+  const symbols = str.substring(str.length - symbolsCount);
   return symbols + str + symbols;
 };
