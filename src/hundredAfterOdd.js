@@ -11,7 +11,5 @@ module.exports.hundredAfterOdd = function hundredAfterOdd(arr) {
       result.push(100);
     }
   }
-
   return result;
-    
 };

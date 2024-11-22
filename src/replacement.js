@@ -8,5 +8,24 @@
  * @returns {Array<number>}
  */
 module.exports.replacement = function replacement(arr) {
-  throw new Error('Not implemented'); // remove me and write a solution
-};
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    let number = arr[i];
+    let num = Math.abs(number);
+    let digitCount = num.toString().length;
+    switch (digitCount) {
+      case 1:
+        result.push(1);
+        break;
+      case 2:
+        result.push(2);
+        break;
+      case 3:
+        result.push(3);
+        break;
+      default:
+        result.push(4);
+    }
+  }
+  return result
+}
