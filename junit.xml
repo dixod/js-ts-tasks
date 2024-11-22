@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.089" tests="25" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-11-22T11:48:53" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="censorship.js" timestamp="2024-11-22T11:48:53" tests="8" file="D:\code js\js-ts-tasks\js-ts-tasks-3\test\index.js" time="0.038" failures="0">
+    <testcase name="censorship.js should return &quot;&quot;There is * s*mple function s*ying **** *nd * little hey&quot;&quot;" time="0.010" classname="should return &quot;&quot;There is * s*mple function s*ying **** *nd * little hey&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;There once was a **** that put to sea\nThe name of the **** was the Billy of Tea\nThe winds *******, her bow dipped down\nOh ****, my bully boys, **** (huh)&quot;&quot;" time="0.002" classname="should return &quot;&quot;There once was a **** that put to sea\nThe name of the **** was the Billy of Tea\nThe winds *******, her bow dipped down\nOh ****, my bully boys, **** (huh)&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;Soon may the Wellerman ****\nTo bring us sugar and *** and ***\nOne day, when the tonguing is done\nWe&apos;ll take our leave and **&quot;&quot;" time="0.001" classname="should return &quot;&quot;Soon may the Wellerman ****\nTo bring us sugar and *** and ***\nOne day, when the tonguing is done\nWe&apos;ll take our leave and **&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;She&apos;d not been two weeks from *****\nWhen ******* her, a right ***** bore\nThe captain called all hands and swore\nHe&apos;d take that ***** in tow (huh!)&quot;&quot;" time="0.001" classname="should return &quot;&quot;She&apos;d not been two weeks from *****\nWhen ******* her, a right ***** bore\nThe captain called all hands and swore\nHe&apos;d take that ***** in tow (huh!)&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;What ********************************?\nWhat ********************************?\nWhat ********************************?\nEarly in the morning&quot;&quot;" time="0.000" classname="should return &quot;&quot;What ********************************?\nWhat ********************************?\nWhat ********************************?\nEarly in the morning&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;bb ** bb *** bb * bb ****&quot;&quot;" time="0.000" classname="should return &quot;&quot;bb ** bb *** bb * bb ****&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;o*83u4 98*j290ejj*******dcs0sdcsdcksd9 ******* ewo*k20ek* 02ek * 0 02*******ek -2k 2ek *02e *2e- *ke*************************************************************************************************************************************20&quot;&quot;" time="0.000" classname="should return &quot;&quot;o*83u4 98*j290ejj*******dcs0sdcsdcksd9 ******* ewo*k20ek* 02ek * 0 02*******ek -2k 2ek *02e *2e- *ke*************************************************************************************************************************************20&quot;&quot;">
+    </testcase>
+    <testcase name="censorship.js should return &quot;&quot;o*83u4 98*j290ejj*******dcs0sdcsdcksd9 ******* ewo*k20ek* 02ek * 0 02*******ek -2k 2ek *02e *2e- *ke*************************************************************************************************************************************20&quot;&quot;" time="0.000" classname="should return &quot;&quot;o*83u4 98*j290ejj*******dcs0sdcsdcksd9 ******* ewo*k20ek* 02ek * 0 02*******ek -2k 2ek *02e *2e- *ke*************************************************************************************************************************************20&quot;&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="formatAddress.js" timestamp="2024-11-22T11:48:53" tests="5" file="D:\code js\js-ts-tasks\js-ts-tasks-3\test\index.js" time="0.007" failures="0">
+    <testcase name="formatAddress.js should return &quot;&quot;Main road, 43, 99, New-York, NY3254, USA&quot;&quot;" time="0.000" classname="should return &quot;&quot;Main road, 43, 99, New-York, NY3254, USA&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddress.js should return &quot;&quot;Savičiaus g, 17, 1, Vilnius, 01126, Lithuania&quot;&quot;" time="0.001" classname="should return &quot;&quot;Savičiaus g, 17, 1, Vilnius, 01126, Lithuania&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddress.js should return &quot;&quot;qwe vlds sdl sdl, 12222222, 1, okfdok, 09iSDF, fkmgsd&quot;&quot;" time="0.000" classname="should return &quot;&quot;qwe vlds sdl sdl, 12222222, 1, okfdok, 09iSDF, fkmgsd&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddress.js should return &quot;&quot;1, 1, 1, 1, 1, 1&quot;&quot;" time="0.000" classname="should return &quot;&quot;1, 1, 1, 1, 1, 1&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddress.js should return &quot;&quot; ,  ,  ,  ,  ,  &quot;&quot;" time="0.000" classname="should return &quot;&quot; ,  ,  ,  ,  ,  &quot;&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="formatAddressWithOrder.js" timestamp="2024-11-22T11:48:53" tests="5" file="D:\code js\js-ts-tasks\js-ts-tasks-3\test\index.js" time="0.009" failures="0">
+    <testcase name="formatAddressWithOrder.js should return &quot;&quot;Main road, 43, 99, New-York, NY3254, USA&quot;&quot;" time="0.000" classname="should return &quot;&quot;Main road, 43, 99, New-York, NY3254, USA&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddressWithOrder.js should return &quot;&quot;Lithuania, Vilnius, Savičiaus g, 17, 1, 01126&quot;&quot;" time="0.001" classname="should return &quot;&quot;Lithuania, Vilnius, Savičiaus g, 17, 1, 01126&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddressWithOrder.js should return &quot;&quot;Savičiaus g, Vilnius, Lithuania, 17, 1, 01126&quot;&quot;" time="0.001" classname="should return &quot;&quot;Savičiaus g, Vilnius, Lithuania, 17, 1, 01126&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddressWithOrder.js should return &quot;&quot;Savičiaus g, Lithuania, Vilnius, 01126, 1, 17&quot;&quot;" time="0.000" classname="should return &quot;&quot;Savičiaus g, Lithuania, Vilnius, 01126, 1, 17&quot;&quot;">
+    </testcase>
+    <testcase name="formatAddressWithOrder.js should return &quot;&quot; ,  ,  ,  ,  ,  &quot;&quot;" time="0.000" classname="should return &quot;&quot; ,  ,  ,  ,  ,  &quot;&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="primeNumbers.js" timestamp="2024-11-22T11:48:53" tests="7" file="D:\code js\js-ts-tasks\js-ts-tasks-3\test\index.js" time="0.024" failures="0">
+    <testcase name="primeNumbers.js should return &quot;[2,3,5,7]&quot;" time="0.004" classname="should return &quot;[2,3,5,7]&quot;">
+    </testcase>
+    <testcase name="primeNumbers.js should return &quot;[59,61,67,71,73,79,83]&quot;" time="0.001" classname="should return &quot;[59,61,67,71,73,79,83]&quot;">
+    </testcase>
+    <testcase name="primeNumbers.js should return &quot;[2]&quot;" time="0.000" classname="should return &quot;[2]&quot;">
+    </testcase>
+    <testcase name="primeNumbers.js should return &quot;[113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331]&quot;" time="0.002" classname="should return &quot;[113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331]&quot;">
+    </testcase>
+    <testcase name="primeNumbers.js should return &quot;[]&quot;" time="0.000" classname="should return &quot;[]&quot;">
+    </testcase>
+    <testcase name="primeNumbers.js should return &quot;[863,877,881,883,887,907,911,919,929,937,941,947,953,967,971,977,983,991,997]&quot;" time="0.004" classname="should return &quot;[863,877,881,883,887,907,911,919,929,937,941,947,953,967,971,977,983,991,997]&quot;">
+    </testcase>
+    <testcase name="primeNumbers.js should return &quot;[53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541,547,557,563,569,571,577,587,593,599,601,607,613,617,619,631,641,643,647,653,659,661,673,677,683,691,701,709,719,727,733,739,743,751,757,761,769,773,787,797,809,811,821,823,827,829,839,853,857,859,863,877,881,883,887,907,911,919,929,937,941,947,953,967,971,977,983,991,997]&quot;" time="0.002" classname="should return &quot;[53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541,547,557,563,569,571,577,587,593,599,601,607,613,617,619,631,641,643,647,653,659,661,673,677,683,691,701,709,719,727,733,739,743,751,757,761,769,773,787,797,809,811,821,823,827,829,839,853,857,859,863,877,881,883,887,907,911,919,929,937,941,947,953,967,971,977,983,991,997]&quot;">
+    </testcase>
+  </testsuite>
+</testsuites>
