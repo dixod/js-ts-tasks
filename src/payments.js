@@ -23,5 +23,18 @@
  * @returns {function}
  */
 module.exports.payments = function payments(TestUtils) {
-  throw new Error('Not implemented'); // remove this line and create your solution
+  return function (income, debts) {
+    function sum(obj) {
+      let total = 0;
+      for (let key in obj) {
+        if (typeof obj[key] === 'number' && !isNaN(obj[key])) {
+          total += obj[key];
+        }
+      }
+      return total;
+    }
+    const totalIncome = sum(income);
+    const totalDebts = sum(debts);
+    return totalIncome - totalDebts;
+  }
 };
