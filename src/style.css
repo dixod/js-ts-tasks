@@ -2,4 +2,291 @@
 
 body {
   background: linear-gradient(45deg, #FFD6C3, #FCB5FF, #BEC6FF);
+  font-family: Inter, sans-serif;
+}
+
+.tag-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 18px;
+  margin-right: 18px;
+  height: 50px;
+}
+
+.tag-bar-user_name {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; /* Высота на 100% родительского контейнера (tag-bar) */
+}
+
+.back {
+  text-align: left;
+  display: flex;
+  align-items: center; /* Центрируем по вертикали */
+  height: 100%; /* Высота на уровне родителя */
+}
+
+.options {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Logo{
+  width: 90px;
+  height: 90px;
+  overflow: clip;
+}
+
+.Profile{
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+}
+
+.Frame-448{
+  justify-content: space-between;
+  display: block;
+  color: white;
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.Posts{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Followers{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Following{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 15px;
+}
+
+.info-name{
+  color: white;
+  font-size: 20px;
+}
+
+.info-type{
+  color: gray;
+  font-size: 16px;
+}
+
+.info-website{
+  color: #D4E0ED;
+  font-size: 17px;
+}
+
+.Actions{
+  display: flex;
+  gap: 7px;
+  margin-left: 18px;
+  margin-top: 15px;
+  margin-right: 6px;
+  }
+
+.Actions-Follow-Button{
+  width: 90px;
+  height: 33px;
+  border-radius: 6px;
+  background-color: #4192EF;
+  color: white;
+  border: none;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+.Actions-Message-Button{
+  width: 90px;
+  height: 33px;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  border: none;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+.Actions-Email-Button{
+  width: 90px;
+  height: 33px;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  border: none;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+.Actions-Vector{
+  width: 33px;
+  height: 33px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+.Highlights{
+  display: flex;
+  margin-top: 15px;
+  gap: 18px;
+  margin-left: 18px;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Highlights01{
+  text-align: center;
+}
+
+.Highlights01-photo{
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #585858;
+  margin-bottom: 3px;
+}
+
+.Highlights02{
+  text-align: center;
+}
+
+.Highlights02-photo{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.Highlights03{
+  text-align: center;
+}
+
+.Highlights03-photo{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.Highlights04{
+  text-align: center;
+}
+
+.Highlights04-photo{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.Highlights01-title{
+  font-size: 16px;
+}
+
+.Highlights02-title{
+  font-size: 16px;
+}
+
+.Highlights03-title{
+  font-size: 16px;
+}
+
+.Highlights04-title{
+  font-size: 16px;
+}
+
+.tab_bar{
+  border: 1.15px solid #262626;
+  display: flex;
+  margin-top: 16px;
+}
+
+.tab_bar-photos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  flex: 1 1 auto;
+  border-bottom: 2px solid white
+}
+
+.tab_bar-tags{
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.gallary{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.img-01, .img-02, .img-03, .img-04, .img-05, .img-06, .img-07, .img-08, .img-09{
+  width: 33.33%;
+  height: 120px;
+}
+
+.Tab_menu{
+  justify-content: center;
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  background-color: black;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  padding-top: 10px;
+  gap: 40px;
 }
